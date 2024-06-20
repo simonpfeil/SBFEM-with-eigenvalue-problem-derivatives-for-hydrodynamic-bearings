@@ -104,6 +104,7 @@ if flag_tay == 1                                                           % if 
         L_vec = L_vec + Ld_vec(1,(1+j*red):((j+1)*red))'*fac;              % add contribution of Taylor series coefficient corresponding to current power to the vector of eigenvalues
     end
     
+    V_mat(:,1) = 1;                                                        % first eigenvector (corresponding to the zero-eigenvalue) does not need to be approximated, as this eigenvector is theoretically constant and equal to [1 1 1 ...]^T (apart from the normalization)
     V_mat = V_mat.*(diag(V_mat'*(diagE0_vec.*V_mat)).^(-0.5))';            % normalization
     
 end
