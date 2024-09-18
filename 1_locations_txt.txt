@@ -1,6 +1,6 @@
-The list below contains the points where the Taylor series' are constructed.
+The list below contains the points where the Taylor series are constructed.
 If you scroll further down, you will find a second list stating the intermediate 
-positions where the solution switches between two neighboring Taylor series'.
+positions where the solution switches between two neighboring Taylor series.
 
 0.009830000000000
 0.029320000000000
@@ -113,7 +113,7 @@ positions where the solution switches between two neighboring Taylor series'.
 0.989880000000000
 
 The following list contains the points where the solution switches between two
-neighboring Taylor series'.
+neighboring Taylor series.
 
 0.000000000000000
 0.019470000000000
